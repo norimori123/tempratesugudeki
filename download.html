@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ご購入ありがとうございます | スグデキ！</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=final_fix_v13">
+    <style>
+        .download-section {
+            padding: 120px 0;
+            text-align: center;
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .success-icon {
+            font-size: 4rem;
+            color: var(--color-primary);
+            margin-bottom: 20px;
+            animation: bounce 1s ease;
+        }
+
+        .download-box {
+            background: #fff;
+            padding: 40px;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            max-width: 600px;
+            margin: 0 auto;
+            border-top: 5px solid var(--color-primary);
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--color-accent);
+            color: white;
+            padding: 1.2rem 3rem;
+            font-size: 1.2rem;
+            border-radius: var(--radius-full);
+            font-weight: 700;
+            margin: 30px 0;
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 107, 107, 0.5);
+            background: var(--color-accent-hover);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">スグデキ！</div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">トップページへ戻る</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="download-section bg-light-blue">
+        <div class="container">
+            <div class="download-box">
+                <div class="success-icon">🎉</div>
+                <h1 class="section-title" style="font-size: 2rem;">ご購入ありがとうございます！</h1>
+                <p class="section-subtitle">決済が正常に完了しました。</p>
+
+                <p class="mt-4">以下のボタンからテンプレート一式をダウンロードしてください。</p>
+
+                <a href="assets/template.pdf" download class="download-btn pulse-anim">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    テンプレートをダウンロード
+                </a>
+
+                <div class="text-left"
+                    style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-top: 20px;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 10px; color: var(--color-primary);">📥 ダウンロード後の手順</h3>
+                    <ol style="padding-left: 20px; line-height: 1.8;">
+                        <li>ボタンをクリックしてZIPファイルを保存します。</li>
+                        <li>保存したファイルを右クリックし、「すべて展開」を選択します。</li>
+                        <li>フォルダ内の「Start_Here.pptx」を開いてください。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Sugudeki! All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

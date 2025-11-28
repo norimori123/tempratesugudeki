@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=final_fix_v10">
+    <link rel="stylesheet" href="styles.css?v=final_fix_v13">
     <!-- PDF.js for rendering slides -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
     <script>
@@ -40,15 +40,22 @@
     </header>
 
     <main>
+
         <!-- Hero -->
-        <section class="hero">
-            <div class="container hero-container">
+        <section id="hero" class="hero">
+            <div class="hero-container">
                 <div class="hero-content text-center">
-                    <span class="hero-badge">累計3,000枚制作のプロが監修</span>
-                    <h1 class="hero-title">資料作成を<br>劇的に時短する<br><span class="text-blue">『スグデキ！』</span></h1>
-                    <p class="hero-subtitle">デザインに迷う時間はもう終わり。<br>247枚のテンプレートで、誰でも瞬時にプロ級のスライドへ。</p>
+                    <span class="hero-badge">PowerPoint Template</span>
+                    <h1 class="hero-title">
+                        <span class="text-blue">パワーポイント</span><br>テンプレート
+                    </h1>
+                    <p class="hero-subtitle-top">資料作成の時間を、<br>「10分の1」に。</p>
+                    <p class="hero-subtitle">
+                        デザインに悩む時間はもう終わり。<br>
+                        プロ級の資料が、コピペだけで完成します。
+                    </p>
                     <a href="#price" class="btn btn-xl btn-primary pulse-anim">今すぐ手に入れる</a>
-                    <p class="hero-note">※30日間返金保証付き</p>
+                    <p class="hero-note">※累計20,000枚以上の制作実績から厳選</p>
                 </div>
             </div>
         </section>
@@ -132,6 +139,64 @@
             </div>
         </section>
 
+        <!-- Before/After -->
+        <section id="before-after" class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">劇的な改善効果</h2>
+                    <p class="section-subtitle">プロフェッショナルなデザインで、資料の説得力が変わります</p>
+                </div>
+
+                <div class="before-after-grid">
+                    <!-- Case 1 -->
+                    <div class="comparison-card">
+                        <div class="comparison-header">
+                            <h3>Case 1: 業務改善提案</h3>
+                        </div>
+                        <div class="comparison-body">
+                            <div class="image-wrapper before">
+                                <span class="label">Before</span>
+                                <img src="assets/before_after_1_before.png" alt="Before: 業務改善提案">
+                            </div>
+                            <div class="arrow-indicator">
+                                ⇒
+                            </div>
+                            <div class="image-wrapper after">
+                                <span class="label">After</span>
+                                <img src="assets/before_after_1_after.png" alt="After: 業務改善提案">
+                            </div>
+                        </div>
+                        <div class="comparison-footer">
+                            <p>情報の優先順位が整理され、要点が瞬時に伝わるデザインへ</p>
+                        </div>
+                    </div>
+
+                    <!-- Case 2 -->
+                    <div class="comparison-card">
+                        <div class="comparison-header">
+                            <h3>Case 2: プロセス可視化</h3>
+                        </div>
+                        <div class="comparison-body">
+                            <div class="image-wrapper before">
+                                <span class="label">Before</span>
+                                <img src="assets/before_after_2_before.png" alt="Before: プロセス可視化">
+                            </div>
+                            <div class="arrow-indicator">
+                                ⇒
+                            </div>
+                            <div class="image-wrapper after">
+                                <span class="label">After</span>
+                                <img src="assets/before_after_2_after.png" alt="After: プロセス可視化">
+                            </div>
+                        </div>
+                        <div class="comparison-footer">
+                            <p>複雑な工程も、直感的に理解できる図解でスムーズに共有</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Gallery (PDF Slides) -->
         <section id="gallery" class="section">
             <div class="container">
@@ -203,7 +268,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path
-                                    d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z">
+                                    d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L12 3Z">
                                 </path>
                             </svg>
                         </div>
@@ -222,6 +287,84 @@
                         </div>
                         <h3>信頼度アップ</h3>
                         <p>見やすく整理された資料は説得力が増し、あなたのビジネスマンとしての評価を高めます。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Voice -->
+        <section id="reviews" class="section bg-light">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">利用者の声</h2>
+                    <p class="section-subtitle">すでに多くの方が『スグデキ！』で成果を出しています</p>
+                </div>
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">
+                                <img src="assets/review_1.png" alt="営業マネージャー">
+                            </div>
+                            <div class="review-meta">
+                                <h4>営業マネージャー</h4>
+                                <span class="review-age">30代男性</span>
+                            </div>
+                        </div>
+                        <p class="review-text">「資料作成の時間が半分以下に！浮いた時間で商談準備ができ、成約率も上がりました。」</p>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">
+                                <img src="assets/review_2.png" alt="経営コンサルタント">
+                            </div>
+                            <div class="review-meta">
+                                <h4>経営コンサルタント</h4>
+                                <span class="review-age">40代女性</span>
+                            </div>
+                        </div>
+                        <p class="review-text">「"パワポの辞書"として手放せません。欲しい図解が必ず見つかります。ゼロから考えるストレスがなくなりました。」</p>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">
+                                <img src="assets/review_3.png" alt="企画職">
+                            </div>
+                            <div class="review-meta">
+                                <h4>企画職</h4>
+                                <span class="review-age">20代女性</span>
+                            </div>
+                        </div>
+                        <p class="review-text">「上司への提案が一度で通るようになりました。今までは『見にくい』と言われていましたが、評価が一変しました。」</p>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">よくある質問</h2>
+                </div>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3 class="faq-question">Q. パソコンが苦手でも使えますか？</h3>
+                        <p class="faq-answer">A. はい、問題ありません。基本的には「コピー＆ペースト」と「文字の打ち替え」だけで完成するように設計されています。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">Q. WindowsとMac、どちらでも使えますか？</h3>
+                        <p class="faq-answer">A. はい、両方のPowerPointで動作確認済みです。レイアウト崩れが起きにくい標準フォントを使用しています。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">Q. 商用利用は可能ですか？</h3>
+                        <p class="faq-answer">A. はい、可能です。ご自身のプレゼン資料や営業資料として自由にお使いいただけます。（※テンプレート自体の再配布は禁止です）</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3 class="faq-question">Q. 購入後、すぐに使えますか？</h3>
+                        <p class="faq-answer">A. はい。決済完了後、すぐにダウンロードURLが届きますので、その場ですぐに資料作成をスタートできます。</p>
                     </div>
                 </div>
             </div>
@@ -264,7 +407,7 @@
                             <span class="amount">2,980</span>
                             <span class="tax">(税込)</span>
                         </div>
-                        <a href="#" class="btn btn-primary btn-xl pulse-anim">今すぐダウンロードする</a>
+                        <a href="#" id="checkout-btn" class="btn btn-primary btn-xl pulse-anim">今すぐダウンロードする</a>
                         <p class="guarantee">※安心の30日間返金保証付き</p>
                         <p class="mt-4 text-sm">このチャンスを逃せば、通常価格でのご案内となります。<br>ライバルがまだ知らないうちに、一歩先を行くための武器を手に入れてください。</p>
                     </div>

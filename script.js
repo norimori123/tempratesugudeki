@@ -74,25 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (galleryContainer) {
         initPdfGallery(pdfUrl, galleryContainer);
     }
-    // Checkout Button Logic (Mock Payment Flow)
-    const checkoutBtn = document.getElementById('checkout-btn');
-    if (checkoutBtn) {
-        checkoutBtn.addEventListener('click', (e) => {
-            e.preventDefault();
 
-            // Change button state to indicate processing
-            const originalText = checkoutBtn.textContent;
-            checkoutBtn.textContent = '決済処理中...';
-            checkoutBtn.style.opacity = '0.7';
-            checkoutBtn.style.pointerEvents = 'none';
-
-            // Simulate API call / Payment processing delay
-            setTimeout(() => {
-                // Redirect to download page
-                window.location.href = 'download.html';
-            }, 1500);
-        });
-    }
 });
 
 async function initPdfGallery(url, container) {
